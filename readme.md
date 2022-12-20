@@ -36,6 +36,8 @@ https://github.com/andrewn822/recipes-for-disaster
 
 ## Deployment Link
 
+https://dashboard.heroku.com/apps/mysterious-ocean-05490
+
 ## Breakdown of tasks
 - creating the ui with html/css/handlebar.js
 - using node.js to run our server and the development tool insomnia for seeing our routes
