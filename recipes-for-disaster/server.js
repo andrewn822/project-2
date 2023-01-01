@@ -8,7 +8,7 @@ const hbs = exphbs.create({});
 const app = express();
 const PORT = process.env.port || 3001;
 
-// TODO: Describe what the following two lines of code are doing.
+
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
