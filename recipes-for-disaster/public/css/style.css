@@ -6,6 +6,10 @@ header {
   border-bottom: 1px solid #ccc;
   background-color: black;
   height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
   
 }
 
@@ -111,6 +115,20 @@ p {
   color: steelblue; 
 }
 
+.btn {
+  color: black;
+}
 
+.main-footer {
+  background-color: black;
+  bottom: 0;
+  position: absolute;
+  height: 2.5rem; 
+  width: 100%;
+}
 
+.footer-text {
+  color: white;
+  text-align: center;
+}
 
