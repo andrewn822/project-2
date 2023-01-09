@@ -132,3 +132,7 @@ p {
   text-align: center;
 }
 
+.info-titles {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+}
