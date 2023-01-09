@@ -1,5 +1,12 @@
-header, .project:not(:last-child) {
+* {
+  font-family: 'Bebas Neue', cursive;
+}
+
+header {
   border-bottom: 1px solid #ccc;
+  background-color: black;
+  height: 100px;
+  
 }
 
 .no-button {
@@ -7,14 +14,15 @@ header, .project:not(:last-child) {
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
+  color: white;
   text-decoration: none;
   font-size: 100%;
+  font-family: 'Abril Fatface', cursive;
 }
 
 .no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
 }
 
 .dollar-amount {
@@ -22,3 +30,87 @@ header, .project:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+
+#main-title {
+  font-size: 2.7rem;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.nav-links:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.top-part{
+  background-image: url(../assets/pinboard.jpeg);
+  background-repeat: no-repeat;
+  background-size: 80% 100%;
+  background-position: center;
+  
+}
+
+.top-part-text {
+  text-align: center;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 70px;
+  padding: 150px;
+  background-size: 80% 100%;
+  font-weight: 900;
+}
+
+
+#ing-title {
+  font-size: 60px;
+  color: steelblue; 
+  font-style:oblique;
+  font-family: 'Caveat', cursive;
+}
+
+.main-ing-title {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.featued-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#info-title {
+  font-size: 80px;
+  color: steelblue; 
+  font-style:oblique;
+  font-family: 'Caveat', cursive;
+}
+
+#info-desc {
+  overflow: auto;
+}
+
+.login-title {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.profile-title {
+  font-family: 'Abril Fatface', cursive;
+}
+
+#project-names {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  color: steelblue; 
+}
+
+
+
+
