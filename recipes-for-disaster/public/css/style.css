@@ -2,7 +2,7 @@
   font-family: 'Bebas Neue', cursive;
 }
 
-header, .project:not(:last-child) {
+header {
   border-bottom: 1px solid #ccc;
   background-color: black;
   height: 100px;
@@ -94,13 +94,22 @@ p {
 }
 
 #info-desc {
-  font-size: 40px;
+  overflow: auto;
 }
 
+.login-title {
+  font-family: 'Abril Fatface', cursive;
+}
 
+.profile-title {
+  font-family: 'Abril Fatface', cursive;
+}
 
-
-
+#project-names {
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  color: steelblue; 
+}
 
 
 

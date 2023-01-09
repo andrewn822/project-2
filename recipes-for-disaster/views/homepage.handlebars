@@ -12,7 +12,7 @@
 <div>
   <h1 class="featued-title">Featured Recipes:</h1>
   {{#each projects as |project| }}
-  <div class="row mb-4 project">
+  <div id="foodie" class="row mb-4 project">
     <div class="col-md-4">
       <h2 class="main-ing-title">
         <!-- Call helper function with triple brackets to render the emoji span as HTML -->
@@ -24,7 +24,7 @@
 
     <div class="col-md-7">
       <h2 class="main-ing-title">Ingredients:</h2>
-      <p>
+      <p class="project-home-desc">
         {{project.description}}
       </p>
     </div>

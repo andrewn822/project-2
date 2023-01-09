@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+    <h2 class="profile-title">Welcome, {{name}}!</h2>
   </div>
 </div>
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create a New Recipe:</h3>
+    <h3 class="profile-title">Create a New Recipe:</h3>
 
     <form class="form new-project-form">
       <div class="form-group">
@@ -26,12 +26,12 @@
 
   {{#if projects.length}}
   <div class="col-md-6 project-list">
-    <h3>Current Recipes:</h3>
+    <h3 class="profile-title">Current Recipes:</h3>
 
     {{#each projects as |project|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/project/{{project.id}}">{{project.name}}</a></h4>
+        <h4><a id="project-names" href="/project/{{project.id}}">{{project.name}}</a></h4>
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{project.id}}">DELETE</button>
