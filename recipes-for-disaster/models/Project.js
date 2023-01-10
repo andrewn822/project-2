@@ -19,7 +19,7 @@ Project.init(
       type: DataTypes.STRING,
     },
     descriptiontwo: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(250),
 
     },
     date_created: {
