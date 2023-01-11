@@ -75,6 +75,7 @@ header {
   color: steelblue; 
   font-style:oblique;
   font-family: 'Caveat', cursive;
+  text-decoration: none;
 }
 
 .main-ing-title {
@@ -114,6 +115,7 @@ p {
   font-family: 'Caveat', cursive;
   font-size: 30px;
   color: steelblue; 
+  text-decoration: none;
 }
 
 .btn {
@@ -149,6 +151,7 @@ p {
 
 #profile-css {
   margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 /* button {
@@ -157,4 +160,12 @@ p {
 
 .form-input {
   outline: none;
+}
+
+.btn {
+  width: 80px;
+}
+
+a href {
+  text-decoration: none;
 }
