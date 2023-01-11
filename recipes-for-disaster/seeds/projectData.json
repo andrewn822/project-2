@@ -1,17 +1,17 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "name": "real man vanilla cake",
+    "descriptiontwo": "A perfectly plush, soft, classic vanilla cake recipe made entirely from scratch! It’s so simple to make, and tastes much better than a box mix! ",
+    "description": "Oil and butter, Sugar, Eggs, Vanilla, Flour, Baking powder, Salt, and Buttermilk"
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "name": "real man donuts",
+    "descriptiontwo": "Homemade glazed doughnuts are the sweet, pillowy answer to what's for dessert? This top-rated doughnut recipe boasts a light, buttery taste with a perfectly decadent glaze that's finger-licking good.",
+    "description": "Milk, Yeast, Sugar, Eggs, Butter, Salt and Vanilla Extract, Nutmeg and Flour"
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "name": "real man cookies",
+    "descriptiontwo": "This is the best chocolate chip cookies recipe ever! No funny ingredients, no chilling time, etc. Just a simple, straightforward, amazingly delicious, doughy yet still fully cooked, chocolate chip cookie that turns out perfectly every single time! ",
+    "desciption": "Butter, Eggs, Vanilla, Baking soda, Water, Salt, Flour, Chocolate chips, and nuts (optional) "
   }
 ]
