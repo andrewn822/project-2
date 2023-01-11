@@ -6,10 +6,13 @@ router.get('/', async (req, res) => {
   try {
     // Get all projects and JOIN with user data
     const projectData = await Project.findAll({
+      limit: 5,
+
       include: [
         {
           model: User,
           attributes: ['name'],
+          
         },
       ],
     });
@@ -26,6 +29,33 @@ router.get('/', async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+router.get('/recipes', async (req, res) => {
+  try {
+    // Get all projects and JOIN with user data
+    const projectData = await Project.findAll({
+      include: [
+        {
+          model: User,
+          attributes: ['name'],
+          
+        },
+      ],
+    });
+
+    // Serialize data so the template can read it
+    const projects = projectData.map((project) => project.get({ plain: true }));
+
+    // Pass serialized data and session flag into template
+    res.render('recipes', { 
+      projects, 
+      logged_in: req.session.logged_in 
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 
 router.get('/project/:id', async (req, res) => {
   try {

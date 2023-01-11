@@ -44,6 +44,7 @@ header {
   text-decoration: none;
   color: white;
   font-family: 'Abril Fatface', cursive;
+  margin: 1px;
 }
 
 .nav-links:hover {
@@ -140,4 +141,20 @@ p {
 #food-img {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+#project-form {
+  margin-bottom: 30px;
+}
+
+#profile-css {
+  margin-top: -10px;
+}
+
+/* button {
+  background-color: #aeaeae;
+} */
+
+.form-input {
+  outline: none;
 }

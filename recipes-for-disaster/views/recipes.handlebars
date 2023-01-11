@@ -1,0 +1,22 @@
+<div>
+  <h1 class="featued-title">Recipes:</h1>
+  {{#each projects as |project| }}
+  <div id="foodie" class="row mb-4 project">
+    <div class="col-md-4">
+      <h2 class="main-ing-title">
+        <!-- Call helper function with triple brackets to render the emoji span as HTML -->
+          Recipe Title:
+      </h2>
+      <a id="ing-title" href="/project/{{project.id}}">{{project.name}}</a>
+      <p>Created by {{project.user.name}} on {{format_date project.date_created}}</p>
+    </div>
+
+    <div class="col-md-7">
+      <h2 class="main-ing-title">Description:</h2>
+      <p class="project-home-desc">
+        {{project.descriptiontwo}}
+      </p>
+    </div>
+  </div>
+  {{/each}}
+</div>
